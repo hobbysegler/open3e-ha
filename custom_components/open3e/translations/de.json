@@ -893,6 +893,9 @@
     "water_heater": {
       "water_heater": {
         "name": "Wasserboiler"
+      },
+      "vitodens_water_heater": {
+        "name": "Warmwasser"
       }
     },
     "switch": {
