@@ -227,8 +227,8 @@ class Features:
 
 # Vitodens
     class Time:
-        Date = Feature(id=505, refresh_interval=10)
-        Time = Feature(id=506, refresh_interval=10)
+        Date = Feature(id=505, refresh_interval=60)
+        Time = Feature(id=506, refresh_interval=60)
         OperatingHoursTillService = Feature(id=521, refresh_interval=60)
         ServiceDateNext = Feature(id=522, refresh_interval=60)
         LegionellaProtectionStartTime = Feature(id=875, refresh_interval=60)
