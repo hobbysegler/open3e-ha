@@ -1934,25 +1934,6 @@ DERIVED_SENSORS: tuple[Open3eDerivedSensorEntityDescription, ...] = (
         compute_value=lambda heating, dhw: heating + dhw,
         required_device=Open3eDevices.Vitodens
     ),
-    
-        ######### TIME/DATE-SENSORS #########
-    Open3eDerivedSensorEntityDescription(
-        poll_data_features=[
-            Features.Time.LegionellaProtectionWeekday, 
-            Features.Time.LegionellaProtectionStartTime
-        ],
-#        device_class=SensorDeviceClass.ENUM,
-        key="legionella_protection_weekly",
-        translation_key="legionella_protection_weekly",
-        icon="mdi:water-plus",
-        data_retrievers=[
-            lambda data: int(data),
-            SensorDataRetriever.TIME
-        ],
-        compute_value=lambda weekday, starttime: ConcStrLPWeekDay(weekday, starttime),
-        required_device=Open3eDevices.Vitodens
-    ),
-
 
     
     ###############
