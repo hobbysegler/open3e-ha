@@ -475,18 +475,6 @@
       "domestic_hot_water_temperature_setpoint": {
         "name": "Warmwassertemperatur Soll"
       },
-      "mixer_one_circuit_room_temperature_setpoint": {
-        "name": "Solltemperatur Heizkreis 1"
-      },
-      "mixer_two_circuit_room_temperature_setpoint": {
-        "name": "Solltemperatur Heizkreis 2"
-      },
-      "mixer_three_circuit_room_temperature_setpoint": {
-        "name": "Solltemperatur Heizkreis 3"
-      },
-      "mixer_four_circuit_room_temperature_setpoint": {
-        "name": "Solltemperatur Heizkreis 4"
-      },
       "flow_temperature_target_setpoint": {
         "name": "Vorlauftemperatur Soll"
       },
@@ -536,10 +524,10 @@
         "name": "Gasverbrauch Gesamt heute"
       },
       "vitodens_device_date": {
-        "name": "Vitodens Date"
+        "name": "Vitodens Datum"
       },
       "vitodens_device_time": {
-        "name": "Vitodens Time"
+        "name": "Vitodens Uhrzeit"
       },
       "gateway_mac": {
         "name": "MAC Adresse"
@@ -570,16 +558,16 @@
         "name": "Name Heizkreis 4"
       },
       "mixer_one_circuit_central_heating_curve": {
-        "name": "Heizkurzve Heizkreis 1"
+        "name": "Heizkurve Heizkreis 1"
       },
       "mixer_two_circuit_central_heating_curve": {
-        "name": "Heizkurzve Heizkreis 2"
+        "name": "Heizkurve Heizkreis 2"
       },
       "mixer_three_circuit_central_heating_curve": {
-        "name": "Heizkurzve Heizkreis 3"
+        "name": "Heizkurve Heizkreis 3"
       },
       "mixer_four_circuit_central_heating_curve": {
-        "name": "Heizkurzve Heizkreis 4"
+        "name": "Heizkurve Heizkreis 4"
       },
       "building_type": {
         "name": "Gebäudetyp"
